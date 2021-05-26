@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&family=PingFang+TC:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin: auto 360px;
+  opacity: 1;
+}
+
+.name {
+  width: 264px;
+  height: 188px;
+  margin-top: 47px;
+  text-align: left;
+  font: normal normal normal 80px/94px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.img {
+  width: 324px;
+  height: 324px;
+  margin-top: 65px;
+  background: transparent url(images/photo-1536180931879-fd2d652efddc@2x.png) 0%
+    0% no-repeat padding-box;
+  background-size: cover;
+  opacity: 1;
+}
+
+.contentContainer {
+  margin-top: 45px;
+  width: 100%;
+}
+
+.contentContainer .title p {
+  height: 45px;
+  text-align: left;
+  font: normal normal normal 32px/43px Noto Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 0 auto;
+}
+
+.contentContainer .title p span {
+  display: inline-block;
+  height: 28px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #a00404;
+  opacity: 1;
+}
+
+.content {
+  margin-top: 24px;
+}
+
+.content p {
+  text-align: left;
+  font: normal normal normal 24px/36px Noto Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.content .imgStyle {
+  width: 90px;
+  height: 90px;
+}
+
+.content .small {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  opacity: 1;
+  text-align: left;
+}
+
+.leftBorder {
+  border-color: gary;
+  border-left: solid 1px;
+  padding-left: 20px;
+  position: relative;
+  left: 20px;
+}
+
+.skill {
+  background: #415165 0% 0% no-repeat padding-box;
+  margin: 72px auto;
+  padding: 24px 0;
+  position: relative;
+}
+
+.skill .skillTitle p {
+  text-align: center;
+  font-size: 32px;
+  line-height: 43px;
+  font-weight: normal;
+  font-family: Noto Sans;
+  margin: 0;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.skill .skillTitle p span {
+  font-size: 24px;
+}
+
+.skill .skillContent {
+  width: 25%;
+  left: 43%;
+  padding-left: 30px;
+  border-left: solid 1px;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.skill .skillContent p {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  text-align: left;
+  padding: 0;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.contact {
+  background: #415165 0% 0% no-repeat padding-box;
+
+  padding: 10px 0;
+  position: relative;
+}
+
+.bottomBorder {
+  height: 1px;
+  margin: 10px 360px 0;
+  background-color: white;
+}
+
+.contact .contactTitle p {
+  text-align: center;
+  font-size: 32px;
+  line-height: 43px;
+  font-weight: normal;
+  font-family: Noto Sans;
+  margin: 0;
+  padding-top: 24px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.contact .contactTitle p span {
+  font-size: 24px;
+}
+
+.contact .contactContent {
+  text-align: center;
+  position: relative;
+}
+
+.contact .contactContent p {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 0;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.contact .contactContent img {
+  margin-right: 24px;
+}
